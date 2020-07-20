@@ -1,0 +1,352 @@
+
+a{
+    margin-right: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+li{
+    margin-top:60px;
+}
+.searchbox{
+    height: 30px;
+    margin-top: 50px;
+
+}
+#search{
+    border-radius: 20px;
+    color: orangered;
+    border: 1px solid orangered;
+
+}
+
+.srcboxx{
+    border: 1px solid #FFBC6B;
+    border-radius: 30px;
+    width: 705px;
+
+}
+
+
+/*search box*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 40%;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid orange;
+    border-radius: 20px;
+    border-right: none;
+    margin-bottom: 100px;
+    padding: 5px;
+    height: 40px;
+    outline: none;
+    color: #9DBFAF;
+    text-align:center;
+}
+
+
+.searchButton {
+    color:aquamarine;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 80%;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#lo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+#nam{
+    margin-top: -70px;
+}
+.advertisement {
+    margin-bottom: 20px;
+}
+.advertisement figure a {
+    display: block;
+}
+.advertisement figure a img {
+    width: 110%;
+    height: auto;
+}
+.breaking-news-item img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+#txt{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+  
+}
+
+
+img {
+    vertical-align: middle;
+}
+img, legend {
+    border: 0;
+}
+#prithivi{
+    margin-top:0px;
+}
+#sagoon{
+    width: 5000px;
+    height: auto;
+    border: 0px solid white
+   
+}
+.headi a{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:1200px;
+}
+
+#imagf{
+
+   
+    height: 100%;
+    width: 100%;
+}
+figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,.43);
+    padding: 5px;
+}
+#tru{
+    color: white;
+    font-weight: bold;
+}
+.allpoint{
+   color: white;
+}
+.news{
+    margin-top: -90px;
+}
+section{
+    overflow: hidden;
+}
+.point li{
+font-weight: 600;
+}
+.point li{
+    font-size: 15px;
+    margin-top: 27px;
+    color: black;
+   
+}
+#point{
+    color: black;
+   
+}
+
+.image1 img{
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+}
+.imge2 img{
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+}
+.imge3 img{
+    margin-top: 5px;
+    width: 50%;
+    height: auto;
+}
+.imge4 img{
+    margin-top: 5px;
+    width: 50%;
+    height: auto;
+}
+
+.mampak a{
+    font-size:13px;
+    text-decoration: none;
+    
+}
+
+/* bhakarsection */
+#subtitle {
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+
+
+}
+.makuri{
+    margin-top: 15px;
+
+}
+#loll{
+    width: 80%;
+   height: auto;
+    
+}
+
+/* makalu हेडलाइन */
+#annapurnaheadline{
+    margin-bottom:-45px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#annapurnaheadlineoi{
+    font-size: 10px;
+    margin-top:25px;
+    color: black;
+    ;
+    
+}
+
+#headlinsli{
+    margin-top: 100px;
+}
+.points li{
+    margin-top: 30px;
+    margin-left: -80px;
+}
+#line{
+    border: 1px solid gray ;
+}
+.makuri li{
+    font-size: 12px;
+    margin-top: 20px;
+    color: black;
+}
+#mamphuli{
+    color: black;
+}
+.mamphuli li{
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+}
+#iu{
+    color: black;
+}
+
+
+#oh{
+    
+    height: 100%;
+    width: 120%;
+    margin-left: -50px;
+    border: 0px solid white;
+}
+#ioooo {
+    position: absolute;
+    bottom: 0;
+    width: 120%;
+    background: rgba(0,0,0,.43);
+    padding: 5px;
+    border: 0px solid red;
+    margin-left: -50px;
+}
+  
+.ck{
+    margin-top: 100px;
+}
+
+/* footer */
+.text-body{
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#uio{
+    border:1px solid grey;
+}
+.about h4{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+.about{
+    margin-top: 100px;
+}
+.icon{
+    margin-left: 40px;
+}
+.icon img{
+    margin-right: 8px;
+}
+.androidios img{
+    margin-top: 15px;
+    
+    
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.text-body {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.text-body p{
+    text-align: center;
+}
+.mamk img{
+    margin-top: 150px;
+    margin-left: 20px;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/* lastfooter */
+.gree{
+    background-color: #424242;
+}
+.adv p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.copy p{
+    color:white;
+    font-weight: bold;
+     margin-top: 15px;
+}
+.pwr img{
+    margin-top: -25px;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mhu{
+    margin-top: 15px;
+    color:white;
+    font-weight: bold;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

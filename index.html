@@ -1,0 +1,458 @@
+<link rel="stylesheet" href="CSS/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="wrap mt-5">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            
+                <i class="fa fa-search searchButton"></i>
+        </div>
+        </div>
+    <a class="navbar-brand"><img src="IMG/Capture.PNG" height="80" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+       
+        <li class="nav-item dropdown active">
+          <a class="nav-link" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+            राजनीति
+          </a>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a class="nav-link" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+              खेल
+            </a>
+            </li>
+
+            <li class="nav-item dropdown active">
+              <a class="nav-link" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                अर्थतन्त्र
+              </a>
+              </li>
+     
+
+            <li class="nav-item dropdown active">
+              <a class="nav-link" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+                मल्टिमिडिया
+              </a>
+              </li>
+      
+       
+        <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                अन्तर्वार्ता
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+     
+
+        <li class="nav-item dropdown active">
+          <a class="nav-link" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+            विचार
+          </a>
+          </li>
+
+        <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                सम्पादकीय
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+      
+        <li class="nav-item dropdown active">
+          <a class="nav-link" href="#" id="" role="button" data-toggle="" aria-haspopup="true" aria-expanded="false">
+            अन्य
+          </a>
+          </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#"> <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR9JREFUeNrsmD0KwkAQhbP+EARBTCsWamNt4XE8hLew8AIW3sYT2Em0iJ2gWIloTHxBG2NkF2xmwhsYBraaLzsv81iTpqlXhqh4JQmCEIQgBCEIQf6JWv7AGDNFGSDvQnuuIyM4ktlH33mLApAjSiD8Aq7ou2Ebra2CSQpdNNJTANK3agSxQA6Fa2T3pe0Cjaj4S+X75h4hCEEIotxrIVpIH/kQ/PGzHXe27ZEVyhiZCAZZo++R7UbaP84lReCikViBJGIXEA1Pj4mL1+qiNAWbxmzsL+g7omnkQiQIQQgi0jROkB3hpvGAXNr2yOnttyTHDX37ttEKFUzSxsWiqHwyLdLI3Hs9YkvVSBW5t94If78EIQhBCEIQgiiOpwADAK68VU6gAKL/AAAAAElFTkSuQmCC" height="25" alt="annapurna post" class="img-responsive"></span> </a>
+        </li>
+      </ul>
+     
+    </div>
+  </nav>
+  
+  <section>
+    <div class="jumbotron bg-white text-center mu-10">
+      <h5 id="lo" class="display-4">समुदायमा देखियो कोरोना, बारामा ४६ जना नयाँ संक्रमित थपिए</h5>
+    </div>
+  </section>
+  <div class="advertisement container ">
+    <figure><a href="https://bit.ly/2MRgb1n" title="BAJAJ Banner" target="_blank">
+      <img src="http://bg.annapurnapost.com/uploads/media/Annapurna-1140x90_20200604115245.gif" id="nam" alt="annapurna post">
+    </a>
+    <hr>
+    </figure>
+  </div>
+  <section>
+    
+      <h5 id="txt" class="">नेतृत्वको महाधिवेशन मंसिरमा, विचारको पछि</h5>
+    </div>
+  </section>
+    
+  <section>
+    <div class="advertisement container">
+      <figure><a href="https://bit.ly/2MRgb1n" title="BAJAJ Banner" target="_blank">
+        <img src="IMG/prithivi-subba-gurung_20200720021458.jpg" id=prithivi alt="annapurna post">
+      </a>
+      <hr>
+      </figure>
+    </div>
+      
+    </div>
+  </section>
+  <section>
+    <div class="jumbotron bg-white text-center">
+      <a id="txt" href="">बर्खा लाग्यो कि त्राहिमाम्</a>
+      <img class="img-thumbnail" id="sagoon" src="IMG/sagoon.png" alt="">
+      <hr>
+      <div class="headi">
+        <a>भर्खरै </a>
+        <hr>
+      </div>
+    </div>
+
+    <section class="news">
+     <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+           <div class="imagesbal card">
+            <img src="IMG/saune-brata-pashupati_20200720063341.jpg" id="imagf" height="" alt="">
+            <figcaption><a href="/news/161639"><p id="tru">शिव र साउने सोमबार</p></a></figcaption>
+           </div>
+         <div class="row">
+          <div class="col-md-6">
+            <div class="image1">
+              
+              <img src="IMG/jageswor-gautam1_20200617103759.jpg" id="loll" alt="">
+              
+             <div class="makuri">
+              <a href="" id="subtitle" class="text-center">१८६ जना कोरोना संक्रमित थपिए..</a>
+             </div>
+              <p  class="text-center"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="imge2">
+              <img src="IMG/Death-body_20180901102757.jpg" id="loll" alt="">
+            </div>  
+            <div class="makuri">
+              <a href="" id="subtitle" class="text-center">खोला बगाउँदा श्रीमतीको मृत्यु, श्रीमान घाइते..</a>
+            </div>
+          </div>
+         
+       
+          <div class="col-md-6">
+            <div class="imge3">
+              <img src="IMG/mandir-_20200720105502.jpg" id="loll"  alt="">
+            </div>
+            <div class="makuri">
+              <a href="" id="subtitle" class="text-center"> ब्रत बसेकी महिलाको मन्दिरमा पूजा गर्दागर्दै मुत्यु.</a>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="imge4">
+              <img src="IMG/winter-rain_20200708133318.jpg" id="loll"  alt="">
+            </div>
+            <div class="makuri">
+              <a href="" id="subtitle" class="text-center">अझै पाँच दिन भारी वर्षा हुने, बाढी पहिरोको उच्‍च ज..</a>
+            </div>
+          </div>
+         </div>
+        
+          </div>
+          <div class="col-md-4">
+            <div class="point">
+
+              <ul class="point">
+                <li><a href=""  id="point">बढ्दै कोसीको सतह </a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href="" id="point"> नारायणगढ-मुग्लिन सडक अवरुद्ध</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href=""  id="point">खाताबाटै हरायो साढे १६ करोड</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href=""  id="point">तीन दिन भारी वर्षा हुने, सतर्कता अपनाउन आग्रह</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href=""  id="point">दुई घण्टादेखि बालुवाटारमा ओली र प्रचण्डको छलफल</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href=""  id="point">दुई घण्टादेखि बालुवाटारमा ओली र प्रचण्डको छलफल</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href=""  id="point">दुई घण्टादेखि बालुवाटारमा ओली र प्रचण्डको छलफल</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href=""  id="point">नवनिर्वाचित सांसद ज्वारचनको शपथ</a></li>
+                <hr id="line">
+              </ul>
+              <ul>
+                <li><a href="" id="point">सशस्त्र प्रहरी र अज्ञात समूहबीच झडप</a></li>
+                <hr id="line">
+              </ul>
+            </div>
+          </div>
+       <div class="col-md-2">
+        <div  class="mampak">
+          <img src="IMG/Pahiro-Kapinna_20200710084328.jpg" class="img-thumbnail" height="10" alt="">
+          <a href="" id="imgforcall" >सशस्त्र प्रहरी र अज्ञात समूहबीच झडप</a>
+        </div>
+
+        <div  class="mampak">
+          <img src="IMG/14-Jana-lee-coorona-jitera-ghar-gaya_20200720065059.jpg" class="img-thumbnail" height="10" alt="">
+          <a href="" id="imgforcall">म्याग्दीका १४ जनाले जिते कोरोना </a>
+        </div>
+        <div  class="mampak">
+          <img src="IMG/saune-brata-pashupati_20200720063341.jpg" class="img-thumbnail" height="10" alt="">
+          <a href="" id="imgforcall"  class="text-align-center">शिव र साउने सोमबार
+            विचार</a>
+        </div>
+      
+        <div  class="mampak">
+          <img src="IMG/surkhet-discharz_20200720044641.jpg" class="img-thumbnail" height="10" alt="">
+          <a href="" class="text-center">कोरोना जितेकालाई ‘छोइछिटो’ समाज</a>
+        </div>
+      
+        <div  class="mampak">
+          <img src="IMG/20180507084739_Balbibah.jpg" class="img-thumbnail" height="10" alt="">
+          <a href="" id="imgforcall">बाल विवाह आरोपमा बेहुलासहित ५ जना पक्राउ
+            समाज</a>
+        </div>
+      
+      
+       </div>
+       
+         </div>
+         
+        </div>
+       
+       </div>
+       
+    </section>
+
+
+<div class="container mt-5">
+    <div class="col-md-12">
+      <div class="row">
+       <div class="col-md-10">
+            <p href="" id="annapurnaheadline">अन्‍नपूर्ण हेडलाइन</p>
+           
+            <a href="" class="pull-right" id="annapurnaheadlineoi">सबै हेर्नुहोस्  </a>
+           </div>
+           
+           
+           <div class="col-md-1">
+            <p href="" id="annapurnaheadline">लोकप्रिय</p>
+            
+          </div>
+         
+       </div>
+       <hr>
+      
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="imagesbal card ">
+              <img src="IMG/surkhet-discharz_20200720044641.jpg" class="card" id="oh" height="" alt="">
+              <figcaption  id="ioooo"><a href="/news/161639"><p id="tru">कोरोना जितेकालाई ‘छोइछिटो’</p></a></figcaption>\
+            
+             </div>
+            
+             <div class="points">
+              <ul class="points">
+                <li><a href="" id="point"  >सुदूरपश्चिममा सलह</a></li>
+                
+              </ul>
+              <ul>
+                <li><a href="" id="point"  >सरकारको सञ्चित कोष: अझै सवा दुई खर्ब घाटा</a></li>
+               
+              </ul>
+              <ul>
+                <li><a href="" id="point"  >खाताबाटै हरायो साढे १६ करोड</a></li>
+              
+              </ul>
+              <ul>
+                <li><a href="" id="point"  >दाहालको ‘युटर्न’</a></li>
+                
+              </ul>
+             </div>
+          </div>
+          <div class="col-md-6">
+            <div class="imagesbal card">
+              <img src="IMG/Duban_20200720020401.jpg" id="imagf" height="" alt="">
+              <figcaption><a href="/news/161639"><p id="tru">कोरोना जितेकालाई ‘छोइछिटो’</p></a></figcaption>\
+            
+             </div>
+             <div class="row">
+              <div class="col-md-6">
+                 <div class="makuri">
+                  <li><a href="" id="mamphuli"  class="text-center">जसको सास नै बोझ बन्यो</a></li>
+                  <hr id="line">
+                </div>
+              </div>
+              <div class="col-md-6">
+              
+                <div class="makuri">
+                 <li> <a href="" id="mamphuli"  class="text-center">स्वदेशीलाई छाडेर आयातीत</a></li>
+                 <hr id="line">
+                </div>
+              </div>
+              
+             
+           
+              <div class="col-md-6">
+                
+                <div class="makuri">
+                 <li> <a href="" id="mamphuli"  class="text-center"> सडकको बहानामा बाँध</a></li>
+                 <hr id="line">
+                </div>
+              </div>
+    
+              <div class="col-md-6">
+                
+                <div class="makuri">
+                 <li> <a href=""id="mamphuli"  class="text-center">जसले डुबाउँछ दोधारा-चाँदनी</a></li>
+                 <hr id="line">
+                </div>
+              </div>
+             </div>
+            
+          </div>
+          <div class="col-md-3">
+            
+              <div class="mamphuli">
+                <ul>
+                <li> <a href="" id="iu" > खुमलटार बैठकमा प्रचण्डको बिफ्रिङ:ओलीसँग मिल</a></li>
+                <li> <a href="" id="iu"  class="text-center"> खाताबाटै हरायो साढे १६ करोड</a></li>
+                <li> <a href="" id="iu"  class="text-center"> तीन दिन भारी वर्षा हुने, सतर्कता अपनाउन आग्रह</a></li>
+                <li> <a href="" id="iu" class="text-center"> शिकार खेल्न गएका रानाको कंकाल भेटियो</a></li>
+                <li> <a href="" id="iu" class="text-center"> जन्मदिनको भोजमा बोलाएर 'बलात्कार'</a></li>
+                <li> <a href="" id="iu" class="text-center"> ऐश्वर्या बिरामी भएपछि रेस्लर जोन सेनाले शेयर</a></li>
+                <li> <a href="" id="iu" class="text-center"> खुमलटारमा १ घण्टा २० मिनेट प्रचण्डको ब्रिफिङ,</a></li>
+
+              </ul>
+               </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="advertisement container  ck">
+    <figure><a href="https://bit.ly/2MRgb1n" title="BAJAJ Banner" target="_blank">
+      <img src="IMG/1140x120(2)_20200616051720.gif" id="nam" alt="annapurna post">
+    </a>
+    <hr>
+    </figure>
+    <figure><a href="https://bit.ly/2MRgb1n"  title="BAJAJ Banner" target="_blank">
+      <img src="IMG/glob.gif" id="" alt="annapurna post">
+    </a>
+    <hr>
+    </figure>
+  </div>
+</div>
+
+<footer class="bg-dark">
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-3 mamk">
+          <figure><a href="https://bit.ly/2MRgb1n" title="BAJAJ Banner" target="_blank">
+            <img src="IMG/download.png" height="80" alt="annapurna post">
+          </a>
+          <hr>
+          </figure>
+        </div>
+
+        <div class="col-md-3">
+          <div class="text-body">
+            <p>कर्पोरेट टावर, तीनकुने, काठमाडौं
+              पोष्ट बक्स नं २४९९९</p> <hr id="uio">
+              <p>फोन ४४८२३०५/४४८२२०७/४४८२१९९</p> <hr id="uio">
+              <P>annapurnapost.com@gmail.com</P> <hr id="uio">
+              <p>marketing@amn.com.np</p> <hr id="uio">
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="about">
+            <h4>About us</h4> <hr id="uio"> 
+         <div class="icon">
+          <img src="IMG/facebook.png" height="40" alt="">
+          <img src="IMG/twitter.png" height="40" alt="">
+          <img src="IMG/instagram-sketched.png" height="40" alt="">
+          <img src="IMG/youtube.png" height="40" alt="">
+         </div>
+         <div class="androidios">
+           <img src="IMG/android.e2f03cf4.png" height="40" alt="">
+           <img src="IMG/appstore.6dd6ad01.png" height="40" alt="">
+         </div>
+            
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="text-body">
+            <p>प्रकाशक : क्याप्टेन रामेश्वर थापा</p>
+            <p>सम्पादक : विष्णु सुवेदी</p>
+            <p>दर्ता न. : १३०९/०७५-०७६</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="gree">
+    <div class="">
+      <div class="col-md-12">
+        <div class="row">
+          
+          <div class="col-md-5 copy">
+            <p>© Copyright 2018 Annapurna Media Network. All rights reserved.</p>
+          </div>
+          <div class="col-md-3 pwr">
+            <p id=mhu>Powered by:<img  src="IMG/yarsha.21d73325.svg" height="30" alt=""></p> 
+          </div>
+          <div class="col-md-3 adv">
+            <p>बिज्ञापन को लागि | ग्राहक बन्नुहोस्</p> 
+            <p></p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+  </footer>
+</footer>
+    
