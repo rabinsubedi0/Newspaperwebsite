@@ -5,16 +5,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+<script src="JS/script.js"></script>
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-    <div class="wrap mt-5">
-        <div class="search">
-            <input type="text" class="searchTerm" placeholder="What are you looking for?">
-            
-                <i class="fa fa-search searchButton"></i>
-        </div>
-        </div>
-    <a class="navbar-brand"><img src="IMG/Capture.PNG" height="80" alt=""></a>
+    
+    <a class="navbar-brand"><img src="IMG/download - Copy.png" height="50" id="weblogo" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -84,14 +78,32 @@
             अन्य
           </a>
           </li>
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href=""><img src="IMG/pradesh.jpg" height="30px" alt=""> प्रदेश १</a>
+            <a href="#"><img src="IMG/pradesh.jpg" height="30px" alt="">प्रदेश २</a>
+            <a href="#"><img src="IMG/pradesh.jpg" height="30px" alt="">प्रदेश ३</a>
+            <a href="#"><img src="IMG/pradesh.jpg" height="30px" alt="">प्रदेश ४</a>
+            <a href="#"><img src="IMG/pradesh.jpg" height="30px" alt="">प्रदेश ५</a>
+          </div>
+          
         <li class="nav-item active">
-            <a class="nav-link" href="#"> <span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAR9JREFUeNrsmD0KwkAQhbP+EARBTCsWamNt4XE8hLew8AIW3sYT2Em0iJ2gWIloTHxBG2NkF2xmwhsYBraaLzsv81iTpqlXhqh4JQmCEIQgBCEIQf6JWv7AGDNFGSDvQnuuIyM4ktlH33mLApAjSiD8Aq7ou2Ebra2CSQpdNNJTANK3agSxQA6Fa2T3pe0Cjaj4S+X75h4hCEEIotxrIVpIH/kQ/PGzHXe27ZEVyhiZCAZZo++R7UbaP84lReCikViBJGIXEA1Pj4mL1+qiNAWbxmzsL+g7omnkQiQIQQgi0jROkB3hpvGAXNr2yOnttyTHDX37ttEKFUzSxsWiqHwyLdLI3Hs9YkvVSBW5t94If78EIQhBCEIQgiiOpwADAK68VU6gAKL/AAAAAElFTkSuQmCC" height="25" alt="annapurna post" class="img-responsive"></span> </a>
+          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
         </li>
       </ul>
      
     </div>
   </nav>
   
+  <section>
+    <div class="wrap mt-5">
+      <div class="search">
+          <input type="text" class="searchTerm" placeholder="What are you looking for?">
+          
+              <i class="fa fa-search searchButton"></i>
+      </div>
+      </div>
+  </section>
   <section>
     <div class="jumbotron bg-white text-center mu-10">
       <h5 id="lo" class="display-4">समुदायमा देखियो कोरोना, बारामा ४६ जना नयाँ संक्रमित थपिए</h5>
