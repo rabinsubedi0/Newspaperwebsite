@@ -1,11 +1,56 @@
-
 a{
     margin-right: 60px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 li{
-    margin-top:60px;
+ text-align: center;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:grey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right:40px;
+    color:white;
+    display: block;
+    margin-bottom: 50px;
+    font-size: 20px;
+    transition: 0.3s;
+    text-align: center;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+#weblogo{
+    margin-left: -20px;
 }
 .searchbox{
     height: 30px;
@@ -43,7 +88,7 @@ li{
     border: 3px solid orange;
     border-radius: 20px;
     border-right: none;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
     padding: 5px;
     height: 40px;
     outline: none;
@@ -71,7 +116,7 @@ li{
 #lo{
     font-size: 40px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 #nam{
     margin-top: -70px;
@@ -99,8 +144,6 @@ li{
     margin-bottom: 30px;
   
 }
-
-
 img {
     vertical-align: middle;
 }
