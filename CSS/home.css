@@ -54,7 +54,7 @@ li{
 }
 .searchbox{
     height: 30px;
-    margin-top: 50px;
+    margin-top: auto;
 
 }
 #search{
@@ -88,7 +88,7 @@ li{
     border: 3px solid orange;
     border-radius: 20px;
     border-right: none;
-    margin-bottom: 140px;
+    margin-bottom: auto;
     padding: 5px;
     height: 40px;
     outline: none;
@@ -109,7 +109,7 @@ li{
 .wrap {
     width: 80%;
     position: absolute;
-    top: 23%;
+    top:90px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -141,7 +141,7 @@ li{
     font-weight: bold;
     color: black;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: px;
   
 }
 img {
@@ -170,6 +170,12 @@ img, legend {
    
     height: 100%;
     width: 100%;
+}
+
+#imagff{
+    
+    width: 100%;
+    height: auto;
 }
 figcaption {
     position: absolute;
